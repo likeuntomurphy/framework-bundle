@@ -23,6 +23,7 @@ CHANGELOG
  * Deprecated `CachePoolClearerPass`. Use `Symfony\Component\Cache\DependencyInjection\CachePoolClearerPass` instead.
  * Deprecated `CachePoolPass`. Use `Symfony\Component\Cache\DependencyInjection\CachePoolPass` instead.
  * Deprecated `CachePoolPrunerPass`. Use `Symfony\Component\Cache\DependencyInjection\CachePoolPrunerPass` instead.
+ * Allowed configuring query encoding type passed to `http_build_query` in `Symfony\Component\Routing\Generator\UrlGenerator` via a new `framework.router.query_encoding_type` option
 
 4.1.0
 -----
